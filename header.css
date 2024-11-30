@@ -1,0 +1,19 @@
+.logo{
+background-image: url(imagen.html/fut_fondo.jpg);
+height: 600px;
+background-position: center;
+background-size:cover;
+}
+@media(max-width:576px){
+    .logo{
+        background-image: url(imagen.html/fut_fondo.jpg);
+        height: 270px;
+        background-size:cover;
+    }
+    .menu-horizontal{
+        display: block;
+        margin-left: 10px;
+        margin-top: 170px;
+        background-color:rgba(0,0,0,.5);
+    }
+}
